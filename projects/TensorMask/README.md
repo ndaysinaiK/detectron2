@@ -1,40 +1,10 @@
 
 # Project structure
 
-./
-	folder_structure.txt
 
-	project_structure.py
 
-	README.md
 
-	setup.py
-
-	train_net.py
-
-	configs/
-
-		Base-TensorMask.yaml
-
-		tensormask_R_50_FPN_1x.yaml
-
-		tensormask_R_50_FPN_6x.yaml
-	tensormask/
-		arch.py
-		config.py
-		__init__.py
-		layers/
-			swap_align2nat.py
-			__init__.py
-			csrc/
-				vision.cpp
-				SwapAlign2Nat/
-					SwapAlign2Nat.h
-					SwapAlign2Nat_cuda.cu
-	tests/
-		test_swap_align2nat.py
-		__init__.py
-
+./![Capture](https://user-images.githubusercontent.com/74330893/159408727-8f85c43f-6349-42cb-93f5-7a7ac637be12.PNG)
 
 # TensorMask in Detectron2
 **A Foundation for Dense Object Segmentation**
