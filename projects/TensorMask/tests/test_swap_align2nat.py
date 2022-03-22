@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # Copyright (c) Facebook, Inc. and its affiliates.
 
-import unittest
-import torch
-from torch.autograd import gradcheck
+import unittest  # import the unitest framework
+import torch  # import torch library
+from torch.autograd import gradcheck  # import the gradcheck from torch autograd method
 
-from tensormask.layers.swap_align2nat import SwapAlign2Nat
+from tensormask.layers.swap_align2nat import SwapAlign2Nat  # important the swap SwapAlign2Nat from tensormask layers
 
 
 class SwapAlign2NatTest(unittest.TestCase):
