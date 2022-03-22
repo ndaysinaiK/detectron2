@@ -1,15 +1,23 @@
 
-# Folder structure
+# Project structure
 
 ./
 	folder_structure.txt
+
 	project_structure.py
+
 	README.md
+
 	setup.py
+
 	train_net.py
+
 	configs/
+
 		Base-TensorMask.yaml
+
 		tensormask_R_50_FPN_1x.yaml
+
 		tensormask_R_50_FPN_6x.yaml
 	tensormask/
 		arch.py
