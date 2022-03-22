@@ -4,7 +4,7 @@
 
 
 
-./![Capture](https://user-images.githubusercontent.com/74330893/159408727-8f85c43f-6349-42cb-93f5-7a7ac637be12.PNG)
+![Capture](https://user-images.githubusercontent.com/74330893/159408727-8f85c43f-6349-42cb-93f5-7a7ac637be12.PNG)
 
 # TensorMask in Detectron2
 **A Foundation for Dense Object Segmentation**
