@@ -1,0 +1,25 @@
+./
+	folder_structure.txt
+	project_structure.py
+	README.md
+	setup.py
+	train_net.py
+	configs/
+		Base-TensorMask.yaml
+		tensormask_R_50_FPN_1x.yaml
+		tensormask_R_50_FPN_6x.yaml
+	tensormask/
+		arch.py
+		config.py
+		__init__.py
+		layers/
+			swap_align2nat.py
+			__init__.py
+			csrc/
+				vision.cpp
+				SwapAlign2Nat/
+					SwapAlign2Nat.h
+					SwapAlign2Nat_cuda.cu
+	tests/
+		test_swap_align2nat.py
+		__init__.py
